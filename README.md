@@ -1,4 +1,4 @@
-# android_project
+# Android_Project
 
 Fitness Chef is a android application, which is a free calorie counter and weight management program which makes fast and easy to track your calories and maintain/gain/lose weight.
 
