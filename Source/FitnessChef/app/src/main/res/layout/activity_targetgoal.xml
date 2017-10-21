@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_targetgoal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.innovators.fitnesschef.targetgoalActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text="Kgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_toRightOf="@+id/editText4"
+        android:layout_toEndOf="@+id/editText4"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="What is your weekly Goal?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Goal weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView10"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <RadioButton
+        android:text="Lose 0.25 Kgs per week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp"
+        android:id="@+id/radioButton"
+        android:layout_toLeftOf="@+id/textView14"
+        android:layout_toStartOf="@+id/textView14" />
+
+    <RadioButton
+        android:text="Lose 0.5 kgs per week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/radioButton2"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignLeft="@+id/radioButton"
+        android:layout_alignStart="@+id/radioButton" />
+
+    <RadioButton
+        android:text="Lose 1 Kgs per week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/radioButton3"
+        android:layout_below="@+id/radioButton2"
+        android:layout_alignLeft="@+id/radioButton2"
+        android:layout_alignStart="@+id/radioButton2" />
+
+    </RadioGroup>
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button12"
+        android:onClick="fuck" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+
+ <html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Date', 'Calories Intake'],
+          [Android.getdate1(), Android.getNum1()],
+          [Android.getdate2(), Android.getNum2()],
+          [Android.getdate3(), Android.getNum3()],
+          [Android.getdate4(), Android.getNum4()],
+		  [Android.getdate5(), Android.getNum5()],
+		  [Android.getdate6(), Android.getNum6()],
+		  [Android.getdate7(), Android.getNum7()]
+        ]);
+
+        var options = {
+          title: 'Total Intake over the Week',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="curve_chart" style="width: 320px; height: 240px"></div>
+  </body>
+</html>

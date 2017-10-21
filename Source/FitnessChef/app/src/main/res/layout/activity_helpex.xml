@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_helpex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.innovators.fitnesschef.helpex">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. Abs"
+                android:textStyle="bold"
+                android:paddingTop="5dp"/>
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/ex1"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2. Pushups"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/ex2"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3. Body Plank"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/ex3"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4. Tricep Bench"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/ex4"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="5. Plyometrics"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/ex5"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6. Ball Raise (Abs)"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/ex6"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="7. Outdoor Circuit"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/ex7"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="8. Butt Exercise"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/ex8"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

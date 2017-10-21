@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_strength"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.innovators.fitnesschef.strength">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. Flat Chest Press"
+                android:textStyle="bold"
+                android:paddingTop="5dp"/>
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st1"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2. Inclined Chest Press"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st2"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3. Flat Chest Flies"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st3"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4. Inclined Chest Flies"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st4"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="5. Seated Shoulder Press"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st5"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6. Lateral Shoulder Raise"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st6"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="7. Reverse Shoulder Flies"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st7"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="8. Dead Lifts"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st8"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9. Single Arm row"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st9"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="10. Bicep Hammer Curls"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st10"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="11. Bicep Preacher Curls"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st11"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="12. Overhead Tricep Extension"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="366dp"
+                android:layout_height="212dp"
+                android:src="@drawable/st12"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
